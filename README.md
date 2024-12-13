@@ -1,58 +1,83 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+# MINIPROJECT
 
-## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+## TITLE OF THE PROJECT
+Real-Time Hand Gesture Recognition for Mouse Control
 
-## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+## ABOUT
+Gesture recognition has become a hands-free substitute for conventional input devices like the mouse as the need for natural and intuitive human-computer interaction (HCI) grows. A real-time hand gesture detection system for mouse control is shown in this study, which uses basic hand gestures to carry out standard mouse operations. The system records live footage of the user's hand using a conventional camera. It then uses computer vision algorithms to recognize motions and translate them into actions like scrolling, clicking, and moving the cursor. Fundamentally, the system separates the hand from the background using a combination of image processing techniques, including contour analysis, skin color segmentation, and background subtraction, and accurately classifies hand postures using a convolutional neural network (CNN) trained on gesture datasets. 
+In situations like healthcare or for people with physical limitations, where typical input devices are unfeasible, this touchless control method provides an ergonomic and user-friendly interaction model. The system, which is intended for real-time performance, offers responsive, low-latency control that is on par with a traditional mouse, making it a useful and affordable substitute. High accuracy and reliable real-time performance are demonstrated during testing; further enhancements could include multi-gesture detection for intricate commands and improved accuracy in a variety of environments and lighting conditions.
 
-## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+## FEATURES
 
-## System Architecture
-<!--Embed the system architecture diagram as shown below-->
+  - Real-Time Gesture Recognition: Captures and processes hand gestures from a live video feed, enabling responsive and interactive mouse control.
+  -  Multiple Mouse Controls: Supports cursor movement, left-click, right-click, scrolling, and drag-and-drop, allowing a wide range of mouse functions via hand gestures.
+  -  Hand Tracking and Detection: Utilizes computer vision libraries (e.g., MediaPipe, OpenCV) for precise hand and finger detection.
+  -  Gesture-Based Commands: Maps specific gestures to different mouse actions (e.g., pinching for click, separating fingers for scroll), making the interface intuitive.
+  -  User-Friendly Interface: Designed for smooth interaction, with gestures corresponding naturally to mouse actions, minimizing the need for physical device contact.
+    
+## REQUIREMENTS
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+* Hardware Requirements:
+  - Camera or Webcam for capturing real-time hand gestures.
+  * Computer with moderate processing power to handle real-time video processing.
+  * Minimum 8 GB RAM for efficient performance.
+* Software Requirements:
+  * Python 3.x as the programming language.
+* Libraries:
+  * OpenCV for image and video processing.
+  * MediaPipe for hand tracking and gesture recognition.
+  * NumPy for numerical computations.
+  * PyAutoGUI for mouse control actions.
+  * TensorFlow/Keras (optional) for deep learning-based gesture recognition.
+  * Compatible with Windows, macOS, or Linux.
 
+## SYSTEM ARCHITECTURE
 
-## Output
+![MINIPROJECT AD](https://github.com/user-attachments/assets/cbcb3ea8-8983-4734-9191-13d90c0860de)
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+## OUTPUT
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+Mouse cursor
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
-
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+![mouse cursor](https://github.com/user-attachments/assets/0d878bd2-ba48-4c0e-bf1f-48728cd081be)
 
 
-## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+Scroll Down
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+![down](https://github.com/user-attachments/assets/68b26171-49cc-4aef-af3a-019b766c6ef0)
+
+
+Scroll Up
+
+![mouse cursor](https://github.com/user-attachments/assets/316b14e7-9900-467b-8b46-2b4e59947488)
+
+
+Right click
+
+![right](https://github.com/user-attachments/assets/48e05a8b-eda5-472f-bfd0-f14757a263de)
+
+
+Left click
+
+![left](https://github.com/user-attachments/assets/9c15c491-340f-470f-b526-557e4626864e)
+
+## RESULTS AND IMPACTS
+
+The real-time hand gesture recognition system for mouse control showed excellent accuracy and dependability in identifying a variety of hand gestures while effectively converting them into mouse commands, such as clicking, scrolling, and moving the pointer. The user's hand was precisely isolated against various backdrops and live video feeds were successfully processed by the system, enabling responsive and fluid handling that closely mimics the feel of a conventional mouse. The system's resilience was confirmed by testing, which revealed constant performance across a range of backdrops and lighting circumstances. Additionally, the CNN model accurately classified gestures, allowing for smooth, organic real-time interaction.
+
+With its revolutionary approach to human-computer interaction, this system improves accessibility and ergonomics of technology, especially in settings where it is beneficial to operate hands-free. It facilitates touchless, sterile control in healthcare, assisting medical personnel throughout treatments without sacrificing hygienic standards. By offering a different method of computer control, the device also helps those with physical limitations, encouraging inclusivity in digital settings. With an easy-to-use interface that improves user experience, it may also find usage in smart home systems, public presentations, and industrial environments. Its usefulness and accessibility may be further increased across other use cases with future advancements in gesture complexity and environmental factor adaptation.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+
+* (2022). Deep learning based Hand gesture recognition system and design of a Human-Machine Interface. doi: 10.48550/arxiv.2207.03112
+* M.Dhyanesh., R., Vijay, Kumar., MD., Ameena., M., Surya, Teja., R., Vijay, Krishna., Dr., G., Krishna, Kishore. (2024). Virtual Mouse using Hand Gesture Recognition. International Journal For Multidisciplinary Research, doi: 10.36948/ijfmr.2024.v06i02.14594
+* Ramachandrudu, Chowdam, C. Ajith, and T. Murali. "Human Computer Interaction Using Hand Gesture.“
+* K. Roy and M. A. H. Akif, "Real Time Hand Gesture Based User Friendly Human Computer Interaction System," 2022 International Conference on Innovations in Science, Engineering and Technology (ICISET), Chittagong, Bangladesh, 2022, pp. 260-265, doi: 10.1109/ICISET54810.2022.9775918.
+* Shaikh, Sahil, Gaurav Narode, Kalyani Thorat, Achal Pardeshi, and D. P. Jain. "GESTURE RECOGNITION BASED VIRTUAL MOUSE AND KEYBOARD."
+
+
+
+
 
 
 
